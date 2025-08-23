@@ -1,0 +1,135 @@
+@import "tailwindcss";
+
+@theme inline {
+  --animate-aurora: aurora 60s linear infinite;
+  --animate-meteor-effect: meteor 5s linear infinite;
+  --animate-move: move 5s linear infinite;
+
+  @keyframes move {
+    0% {
+      transform: translateX(-200px);
+    }
+
+    100% {
+      transform: translateX(200px);
+    }
+  }
+
+  @keyframes aurora {
+    from {
+      background-position:
+        50% 50%,
+        50% 50%;
+    }
+
+    to {
+      background-position:
+        350% 50%,
+        350% 50%;
+    }
+  }
+
+  @keyframes meteor {
+    0% {
+      transform: rotate(215deg) translateX(0);
+      opacity: 1;
+    }
+
+    70% {
+      opacity: 1;
+    }
+
+    100% {
+      transform: rotate(215deg) translateX(-500px);
+      opacity: 0;
+    }
+  }
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #130c20;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  font-family: Inter, sans-serif;
+  /* Firefox */
+}
+
+.orbitron-font {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media (max-width: 575.98px) {
+  .navbar-responsive {
+    display: none;
+  }
+  .navbar-unresponsive {
+    display: flex;
+  }
+}
+
+/* Small devices (portrait tablets & large phones, ≥576px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .navbar-responsive {
+    display: none;
+  }
+  .navbar-unresponsive {
+    display: flex;
+  }
+}
+
+/* Medium devices (landscape tablets, ≥768px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .navbar-responsive {
+    display: none;
+  }
+  .navbar-unresponsive {
+    display: flex;
+  }
+}
+
+/* Large devices (desktops, ≥992px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .navbar-responsive {
+    display: flex;
+  }
+  .navbar-unresponsive {
+    display: hidden;
+  }
+}
+
+/* Extra large devices (large desktops, ≥1200px) */
+@media (min-width: 1200px) {
+  .navbar-responsive {
+    display: flex;
+  }
+  .navbar-unresponsive {
+    display: hidden;
+  }
+}
