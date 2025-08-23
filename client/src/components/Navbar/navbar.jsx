@@ -90,7 +90,7 @@ export default function NavbarDemo() {
               </a>
             ))}
             <div className="flex w-full flex-col gap-4">
-              <button className="cursor-pointer px-8 py-2 rounded-md bg-purple-400 text-white font-bold transition duration-200 hover:bg-white hover:text-black border-2 border-transparent hover:border-purple-400">
+              <button className="cursor-pointer px-8 py-2 rounded-md bg-purple-400 text-white font-bold transition duration-200 hover:bg-white hover:text-black border-2 border-transparent hover:border-purple-400 text-sm">
                 Dashboard
               </button>
             </div>

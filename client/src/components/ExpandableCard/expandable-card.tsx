@@ -145,13 +145,13 @@ export function ExpandableCard() {
               <div className="">
                 <motion.h2
                   layoutId={`title-${card.title}-${id}`}
-                  className="font-medium text-xl lg:text-2xl text-neutral-800 text-neutral-200 text-left md:text-left text-white"
+                  className="font-medium text-xl lg:text-xl text-neutral-800 text-neutral-200 text-left md:text-left text-white"
                 >
                   {card.title}
                 </motion.h2>
                 <motion.p
                   layoutId={`description-${card.description}-${id}`}
-                  className="text-neutral-600 text-neutral-400 text-slate-300 text-lg lg:text-xl md:text-left"
+                  className="text-neutral-600 text-neutral-400 text-slate-300 text-lg lg:text-lg md:text-left"
                 >
                   {card.description}
                 </motion.p>
@@ -208,7 +208,7 @@ const cards = [
     description: "What services does Yggdrasil provide?",
     title: "Services We Offer",
     src: "https://assets.aceternity.com/demos/lana-del-rey.jpeg",
-    ctaText: "Explore",
+    ctaText: "Read More",
     ctaLink: "https://ui.aceternity.com/templates",
     content: () => {
       return (
@@ -222,7 +222,7 @@ const cards = [
     description: "How does Yggdrasil ensure data security for clients?",
     title: "Enterprise Data Security",
     src: "https://assets.aceternity.com/demos/babbu-maan.jpeg",
-    ctaText: "Explore",
+    ctaText: "Read More",
     ctaLink: "https://ui.aceternity.com/templates",
     content: () => {
       return (
@@ -237,7 +237,7 @@ const cards = [
     description: "Do you offer consulting services for enterprises?",
     title: "Consulting & Support",
     src: "https://assets.aceternity.com/demos/metallica.jpeg",
-    ctaText: "Explore",
+    ctaText: "Read More",
     ctaLink: "https://ui.aceternity.com/templates",
     content: () => {
       return (
@@ -251,7 +251,7 @@ const cards = [
     description: "Can Yggdrasil build custom solutions for my business?",
     title: "Tailored Enterprise Solutions",
     src: "https://assets.aceternity.com/demos/led-zeppelin.jpeg",
-    ctaText: "Explore",
+    ctaText: "Read More",
     ctaLink: "https://ui.aceternity.com/templates",
     content: () => {
       return (
@@ -265,7 +265,7 @@ const cards = [
     description: "What industries does Yggdrasil work with?",
     title: "Industries We Serve",
     src: "https://assets.aceternity.com/demos/toh-phir-aao.jpeg",
-    ctaText: "Explore",
+    ctaText: "Read More",
     ctaLink: "https://ui.aceternity.com/templates",
     content: () => {
       return (
@@ -279,7 +279,7 @@ const cards = [
     description: "How does Yggdrasil’s AI Cybersecurity protect businesses?",
     title: "AI-Powered Cybersecurity",
     src: "https://assets.aceternity.com/demos/toh-phir-aao.jpeg",
-    ctaText: "Explore",
+    ctaText: "Read More",
     ctaLink: "https://ui.aceternity.com/templates",
     content: () => {
       return (

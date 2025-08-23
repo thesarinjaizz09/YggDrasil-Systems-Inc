@@ -43,7 +43,7 @@ const FloatingDockMobile = ({
 }) => {
   const [open, setOpen] = useState(false);
   return (
-    <button className="mt-0 lg:mt-7 cursor-pointer rounded-lg border border-gray-500 px-4 py-1 text-gray-300 text-xl">
+    <button className="mt-0 lg:mt-7 cursor-pointer rounded-lg border border-gray-500 px-4 py-1 text-gray-300 text-md">
       Learn More
     </button>
     // <div className={cn("relative block md:hidden", className)}>
@@ -105,7 +105,7 @@ const FloatingDockDesktop = ({
       onMouseMove={(e) => mouseX.set(e.pageX)}
       onMouseLeave={() => mouseX.set(Infinity)}
       className={cn(
-        "w-full items-center justify-between mx-auto h-18 items-end rounded-2xl bg-gray-50 px-4 pb-3 md:flex backdrop-blur-sm bg-white/4 glass",
+        "w-full items-center justify-between mx-auto h-16 items-end rounded-2xl bg-gray-50 px-4 pb-3 md:flex backdrop-blur-sm bg-white/4 glass",
         className,
       )}
     >
@@ -135,11 +135,11 @@ function IconContainer({
     return val - bounds.x - bounds.width / 2;
   });
 
-  let widthTransform = useTransform(distance, [-150, 0, 150], [50, 90, 50]);
-  let heightTransform = useTransform(distance, [-150, 0, 150], [50, 90, 50]);
+  let widthTransform = useTransform(distance, [-150, 0, 150], [40, 60, 40]);
+  let heightTransform = useTransform(distance, [-150, 0, 150], [40, 60, 40]);
 
-  let widthTransformIcon = useTransform(distance, [-150, 0, 150], [30, 60, 30]);
-  let heightTransformIcon = useTransform(distance, [-150, 0, 150], [30, 60, 30]);
+  let widthTransformIcon = useTransform(distance, [-150, 0, 150], [20, 40, 20]);
+  let heightTransformIcon = useTransform(distance, [-150, 0, 150], [20, 40, 20]);
 
 
   let width = useSpring(widthTransform, {

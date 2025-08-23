@@ -52,7 +52,7 @@ export const Tabs = ({
             }}
             onMouseEnter={() => setHovering(true)}
             onMouseLeave={() => setHovering(false)}
-            className={cn("cursor-pointer relative px-4 py-2 rounded-lg text-lg w-full lg:w-auto border",active.value === tab.value && "border-none", tabClassName)}
+            className={cn("cursor-pointer relative px-4 py-2 rounded-lg  w-full lg:w-auto border border-white",active.value === tab.value && "border-none", tabClassName)}
             style={{
               transformStyle: "preserve-3d",
             }}
@@ -68,7 +68,7 @@ export const Tabs = ({
               />
             )}
 
-            <span className="text-left lg:text-center relative block text-black text-white">
+            <span className="text-left lg:text-center relative block text-black text-white text-md">
               {tab.title}
             </span>
           </button>

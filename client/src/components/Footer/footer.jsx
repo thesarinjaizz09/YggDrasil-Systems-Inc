@@ -18,12 +18,12 @@ export default function Footer() {
                             width={150}
                         />
                     </a></h2>
-                    <p className="mt-4 text-sm lg:text-lg text-neutral-400 leading-relaxed">
+                    <p className="mt-4 text-sm lg:text-md text-neutral-400 leading-relaxed">
                         Building the future of intelligent defence and next-generation
                         cybersecurity infrastructure. From Zero Trust to AI-driven systems,
                         we create resilient digital ecosystems.
                     </p>
-                    <p className="mt-4 text-sm lg:text-lg text-neutral-500">
+                    <p className="mt-4 text-sm lg:text-md text-neutral-500">
                         Headquarters: Kolkata, India
                     </p>
                 </div>
@@ -36,7 +36,7 @@ export default function Footer() {
                         <h3 className="text-sm lg:text-lg font-semibold uppercase tracking-wider text-neutral-400">
                             Company
                         </h3>
-                        <ul className="mt-4 space-y-2 text-sm lg:text-lg">
+                        <ul className="mt-4 space-y-2 text-sm lg:text-md">
                             <li><a href="#" className="hover:text-white">About Us</a></li>
                             <li><a href="#" className="hover:text-white">Leadership</a></li>
                             <li><a href="#" className="hover:text-white">Careers</a></li>
@@ -50,7 +50,7 @@ export default function Footer() {
                         <h3 className="text-sm lg:text-lg font-semibold uppercase tracking-wider text-neutral-400">
                             Solutions
                         </h3>
-                        <ul className="mt-4 space-y-2 text-sm lg:text-lg">
+                        <ul className="mt-4 space-y-2 text-sm lg:text-md">
                             <li><a href="#" className="hover:text-white">Cybersecurity Mesh</a></li>
                             <li><a href="#" className="hover:text-white">Zero Trust Networks</a></li>
                             <li><a href="#" className="hover:text-white">AI Defence Systems</a></li>
@@ -70,7 +70,7 @@ export default function Footer() {
                             <a href="#" className="hover:text-white"><FaGithub size={20} /></a>
                             <a href="#" className="hover:text-white"><FaYoutube size={20} /></a>
                         </div>
-                        <p className="mt-4 text-sm lg:text-lg text-neutral-400 leading-relaxed">
+                        <p className="mt-4 text-sm lg:text-md text-neutral-400 leading-relaxed">
                             Stay connected for the latest insights on cybersecurity,
                             AI innovation, and next-gen technology.
                         </p>

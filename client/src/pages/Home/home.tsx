@@ -76,7 +76,7 @@ export default function Home() {
 
                                 </GlowingStarsDescription>
                             </div>
-                            <button className="font-normal w-30 cursor-pointer rounded-lg border border-gray-500 px-4 py-1 text-gray-300 text-xl">
+                            <button className="font-normal w-30 cursor-pointer rounded-lg border border-gray-500 px-4 py-1 text-gray-300 text-md">
                                 Explore
                             </button>
                         </div>
@@ -139,7 +139,7 @@ export default function Home() {
                                     🔮 This isn’t just development — it’s creation without limits. By fusing cutting-edge AI with deep engineering expertise, we ensure that every build is smarter, faster, and more adaptive than traditional solutions.
                                 </GlowingStarsDescription>
                             </div>
-                            <button className="font-normal w-30 cursor-pointer rounded-lg border border-gray-500 px-4 py-1 text-gray-300 text-xl">
+                            <button className="font-normal w-30 cursor-pointer rounded-lg border border-gray-500 px-4 py-1 text-gray-300 text-md">
                                 Explore
                             </button>
                         </div>
@@ -206,7 +206,7 @@ export default function Home() {
                                     🧭 Consultation isn’t a transaction — it’s partnership. We stand beside you as strategists, innovators, and defenders, ensuring every choice you make is fortified by knowledge and foresight.
                                 </GlowingStarsDescription>
                             </div>
-                            <button className="font-normal w-30 cursor-pointer rounded-lg border border-gray-500 px-4 py-1 text-gray-300 text-xl">
+                            <button className="font-normal w-30 cursor-pointer rounded-lg border border-gray-500 px-4 py-1 text-gray-300 text-md">
                                 Explore
                             </button>
                         </div>
@@ -273,7 +273,7 @@ export default function Home() {
                                     ⚔️ Our approach is adversarial by design, but constructive in purpose. Every engagement is executed by elite cybersecurity operators who specialize in thinking like attackers but acting as your defenders.
                                 </GlowingStarsDescription>
                             </div>
-                            <button className="font-normal w-30 cursor-pointer rounded-lg border border-gray-500 px-4 py-1 text-gray-300 text-xl">
+                            <button className="font-normal w-30 cursor-pointer rounded-lg border border-gray-500 px-4 py-1 text-gray-300 text-md">
                                 Explore
                             </button>
                         </div>
@@ -343,7 +343,7 @@ export default function Home() {
                                     This is data sovereignty as a service — power, privacy, and protection engineered at scale.
                                 </GlowingStarsDescription>
                             </div>
-                            <button className="font-normal w-30 cursor-pointer rounded-lg border border-gray-500 px-4 py-1 text-gray-300 text-xl">
+                            <button className="font-normal w-30 cursor-pointer rounded-lg border border-gray-500 px-4 py-1 text-gray-300 text-md">
                                 Explore
                             </button>
                         </div>
@@ -461,7 +461,7 @@ export default function Home() {
     };
 
     return (
-        <div className="w-full mt-30 lg:mt-45">
+        <div className="w-full mt-30 lg:mt-35">
             <div className="relative flex flex-col items-center justify-center mt-15 px-2 lg:px-0">
                 <div className=" flex flex-col items-start lg:items-center justify-center w-full pt-10">
                     <motion.div
@@ -478,14 +478,14 @@ export default function Home() {
 
                         <GlowingButton
                             as="button"
-                            className="text-sm lg:text-xl rounded-lg bg-white bg-slate-900 text-black text-white border-neutral-200 border-slate-800"
+                            className="text-sm lg:text-md rounded-lg bg-white bg-slate-900 text-black text-white border-neutral-200 border-slate-800"
                         >
                             <span>Securing the World’s Most Critical Assets</span>
                         </GlowingButton>
                     </motion.div>
                     <div className="flex flex-col lg:flex-row items-start justify-center text-white">
                         <h1
-                            className="mt-8 mb-2 relative z-10 text-center text-5xl font-bold text-white md:text-7xl lg:text-8xl"
+                            className="mt-8 mb-2 relative z-10 text-center text-5xl font-bold text-white md:text-6xl lg:text-7xl"
                         >
                             {`Holistic ${' '}`
                                 .split(" ")
@@ -505,7 +505,7 @@ export default function Home() {
                                 ))}
                         </h1>
                         <h1
-                            className="mt-0 lg:mt-8 mb-2 relative z-10 text-center text-5xl font-bold md:text-7xl bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 bg-clip-text lg:text-8xl font-orbitron"
+                            className="mt-0 lg:mt-8 mb-2 relative z-10 text-center text-5xl font-bold md:text-6xl bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 bg-clip-text lg:text-7xl font-orbitron"
                             style={{
                                 color: "#2b5cfc",
                             }}
@@ -529,7 +529,7 @@ export default function Home() {
                         </h1>
                     </div>
                     <h1
-                        className="mb-8 relative z-10 text-left text-4xl font-bold text-white md:text-3xl lg:text-8xl navbar-responsive">
+                        className="mb-8 relative z-10 text-left text-4xl font-bold text-white md:text-6xl lg:text-7xl navbar-responsive">
                         {`in${' '} a${' '} Single${' '} Console`
                             .split(" ")
                             .map((word, index) => (
@@ -558,7 +558,7 @@ export default function Home() {
                             duration: 0.3,
                             delay: 0.8,
                         }}
-                        className="ml-1 w-full lg:w-8/12 relative z-10 py-4 text-left lg:text-center text-lg lg:text-2xl text-neutral-500">
+                        className="ml-1 w-full lg:w-8/12 relative z-10 py-4 text-left lg:text-center text-lg lg:text-xl text-neutral-500">
                         Bespoke <b>cyber defense</b> for <b>governments, global enterprises, and innovators</b> operating in hostile digital environments. From <b>custom-built secure systems</ b> to <b>AI modules</b> that integrate seamlessly into existing networks, our solutions <b>monitor, predict, and neutralize threats</b> in real time.
                         <br />
                         <b>We don’t just secure systems — We secure legacies.</b>
@@ -576,11 +576,11 @@ export default function Home() {
                         }}
                         className="relative z-10 mt-10 flex flex-wrap items-center justify-start gap-4 text-white">
                         <button
-                            className="texl-lg lg:text-xl cursor-pointer w-full lg:w-80 transform rounded-lg bg-black px-6 py-2 font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-800 text-black hover:bg-gray-200">
+                            className="texl-lg cursor-pointer w-full lg:w-80 transform rounded-lg bg-black px-6 py-2 font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-800 text-black hover:bg-gray-200">
                             Secure Your Infrastructure →
                         </button>
                         <button
-                            className="texl-lg lg:text-xl cursor-pointer w-full lg:w-80 transform rounded-lg border border-gray-300 bg-white px-6 py-2 font-medium text-black transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-100 border-gray-700 hover:bg-gray-900">
+                            className="texl-lg cursor-pointer w-full lg:w-80 transform rounded-lg border border-gray-300 bg-white px-6 py-2 font-medium text-black transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-100 border-gray-700 hover:bg-gray-900">
                             Explore Our Capabilities
                         </button>
                     </motion.div>
@@ -638,7 +638,7 @@ export default function Home() {
                             </svg>
                         </div>
 
-                        <h1 className="relative z-50 mb-5 text-xl lg:text-3xl font-bold text-white text-neutral-400">
+                        <h1 className="relative z-50 mb-5 text-xl lg:text-2xl font-bold text-white text-neutral-400">
                             One <p style={{
                                 color: "#2b5cfc",
                                 display: "inline"
@@ -652,7 +652,7 @@ export default function Home() {
                             </p>
                         </h1>
 
-                        <p className="relative z-50 mb-6 font-normal text-slate-500 text-lg lg:text-2xl">
+                        <p className="relative z-50 mb-6 font-normal text-slate-500 text-lg lg:text-xl">
                             From legacy systems to cutting-edge stacks, our technology unifies and enhances security across your entire ecosystem.
                         </p>
 
@@ -670,7 +670,7 @@ export default function Home() {
             <div className="w-full px-2 lg:px-7">
                 <div className="flex flex-wrap">
                     <h1
-                        className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl text-white">
+                        className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-5xl lg:text-6xl text-white">
                         {`Pioneer${' '} in`
                             .split(" ")
                             .map((word, index) => (
@@ -689,7 +689,7 @@ export default function Home() {
                             ))}
                     </h1>
                     <h1
-                        className="ml-0 lg:ml-2 mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl text-slate-300 text-neutral-400" style={{
+                        className="ml-0 lg:ml-2 mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-5xl lg:text-6xl text-slate-300 text-neutral-400" style={{
                             color: "#2b5cfc",
                         }}>
                         {`Security,`
@@ -712,7 +712,7 @@ export default function Home() {
                 </div>
                 <div className="flex flex-wrap">
                     <h1
-                        className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl text-slate-300 text-neutral-400" style={{
+                        className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-5xl lg:text-6xl text-slate-300 text-neutral-400" style={{
                             color: "#2b5cfc",
                         }}>
                         {`Intelligence${" "}`
@@ -733,7 +733,7 @@ export default function Home() {
                             ))}
                     </h1>
                     <h1
-                        className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl text-white">
+                        className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-5xl lg:text-6xl text-white">
                         {"&"
                             .split(" ")
                             .map((word, index) => (
@@ -752,7 +752,7 @@ export default function Home() {
                             ))}
                     </h1>
                     <h1
-                        className="ml-0 lg:ml-2 mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl text-slate-300 text-neutral-400" style={{
+                        className="ml-0 lg:ml-2 mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-5xl lg:text-6xl text-slate-300 text-neutral-400" style={{
                             color: "#2b5cfc",
                         }}>
                         {`Engineering`
@@ -784,7 +784,7 @@ export default function Home() {
                         duration: 0.3,
                         delay: 0.8,
                     }}
-                    className="ml-0 lg:ml-1 w-full lg:w-10/12 relative z-10 py-4 text-left text-xl lg:text-2xl text-slate-300">
+                    className="ml-0 lg:ml-1 w-full lg:w-10/12 relative z-10 py-4 text-left text-lg lg:text-lg text-slate-300">
                     Empowering enterprises with AI-driven cybersecurity, precision-engineered software, and expert insight — safeguarding your digital future while accelerating innovation.
                 </motion.p>
                 <Tabs tabs={tabs} />
@@ -792,7 +792,7 @@ export default function Home() {
             <div className="w-full px-2 lg:px-7 mt-50">
                 <div className="flex">
                     <h1
-                        className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl text-slate-300 text-neutral-400 flex items-end lg:block" style={{
+                        className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-5xl lg:text-6xl text-slate-300 text-neutral-400 flex items-end lg:block" style={{
                             color: "#2b5cfc",
                         }}>
                         {`Intelligent${" "} `
@@ -813,7 +813,7 @@ export default function Home() {
                             ))}
                     </h1>
                     <h1
-                        className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl text-white">
+                        className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-5xl lg:text-6xl text-white">
                         {`Defence`
                             .split(" ")
                             .map((word, index) => (
@@ -836,7 +836,7 @@ export default function Home() {
                 <div className="flex flex-wrap">
 
                     <h1
-                        className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl text-slate-300 text-neutral-400" style={{
+                        className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-5xl lg:text-6xl text-slate-300 text-neutral-400" style={{
                             color: "#2b5cfc",
                         }}>
                         {`Mesh${" "}`
@@ -857,7 +857,7 @@ export default function Home() {
                             ))}
                     </h1>
                     <h1
-                        className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl text-white">
+                        className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-5xl lg:text-6xl text-white">
                         {`For ${" "} Modern`
                             .split(" ")
                             .map((word, index) => (
@@ -876,7 +876,7 @@ export default function Home() {
                             ))}
                     </h1>
                     <h1
-                        className="ml-0 lg:ml-2 mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl text-slate-300 text-neutral-400" style={{
+                        className="ml-0 lg:ml-2 mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-5xl lg:text-6xl text-slate-300 text-neutral-400" style={{
                             color: "#2b5cfc",
                         }}>
                         {`Enterprises`
@@ -908,7 +908,7 @@ export default function Home() {
                         duration: 0.3,
                         delay: 0.8,
                     }}
-                    className="ml-0 lg:ml-1 w-full lg:w-10/12 relative z-10 py-4 text-left text-xl text-slate-300">
+                    className="ml-0 lg:ml-1 w-full lg:w-10/12 relative z-10 py-4 text-left text-lg text-slate-300">
                     Comprehensive Cyber Defense that Monitors, Detects, and Neutralizes Risks Across Systems, Networks, and Applications Before They Can Escalate. Designed for Enterprises That Demand Zero Weak Points.
                 </motion.p>
                 {/* <div className="w-full flex items-center justify-between mt-15">
@@ -985,7 +985,7 @@ export default function Home() {
                             Active XDR protection
                             from modern threats
                         </h2>
-                        <p className="mt-4 text-left text-lg text-neutral-400">
+                        <p className="mt-4 text-left text-lg text-slate-300">
                             Defend against today’s most advanced cyberattacks with AI-driven Extended Detection and Response (XDR). Our platform continuously identifies, analyzes, and neutralizes threats across endpoints, networks, and cloud workloads — ensuring rapid containment before damage is done.
                         </p>
                     </div>
@@ -1001,7 +1001,7 @@ export default function Home() {
                     <h2 className="max-w-80  text-left text-balance text-2xl lg:text-4xl font-semibold tracking-[-0.015em] text-white">
                         AI-Powered Real-Time Monitoring
                     </h2>
-                    <p className="mt-4 max-w-[26rem] text-left  text-lg text-neutral-400">
+                    <p className="mt-4 max-w-[26rem] text-left  text-lg text-slate-300">
                         Stay ahead with continuous visibility into every layer of your IT environment. From endpoint activity to cloud traffic, our real-time monitoring and live dashboards provide instant alerts, enabling proactive defense before incidents escalate.
                     </p>
                 </WobbleCards>
@@ -1011,7 +1011,7 @@ export default function Home() {
                             A comprehensive
                             SIEM solution
                         </h2>
-                        <p className="mt-4 max-w-[26rem] text-left  text-lg text-neutral-400">
+                        <p className="mt-4 max-w-[26rem] text-left  text-lg text-slate-300">
                             Gain complete control over your security posture with an intelligent Security Information and Event Management (SIEM) solution. By correlating logs, detecting anomalies, and automating responses, we empower your team to make informed decisions faster.
                         </p>
                     </div>
@@ -1045,7 +1045,7 @@ export default function Home() {
                             </svg>
                         </div>
 
-                        <h1 className="relative z-50 mb-5 text-xl lg:text-3xl font-bold text-white text-neutral-400">
+                        <h1 className="relative z-50 mb-5 text-xl lg:text-2xl font-bold text-white text-neutral-400">
                             Explore the <p style={{
                                 color: "#2b5cfc",
                                 display: "inline"
@@ -1059,11 +1059,11 @@ export default function Home() {
                             </p>
                         </h1>
 
-                        <p className="relative z-50 mb-6 font-normal text-slate-500 text-lg lg:text-2xl">
+                        <p className="relative z-50 mb-6 font-normal text-slate-500 text-lg lg:text-xl">
                             The Yggdrasil Cloud service offers managed, ready-to-use, and highly scalable cloud environments for security monitoring and endpoint protection.
                         </p>
 
-                        <button className="cursor-pointer rounded-lg border border-gray-500 px-4 py-1 text-gray-300 text-xl">
+                        <button className="cursor-pointer rounded-lg border border-gray-500 px-4 py-1 text-gray-300 text-md">
                             Start Your Free Trial
                         </button>
 
@@ -1075,7 +1075,7 @@ export default function Home() {
                 <div className="mx-auto text-left mb-13">
                     <div className="flex flex-wrap">
                         <h1
-                            className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl text-white">
+                            className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-5xl lg:text-6xl text-white">
                             {`Remote`
                                 .split(" ")
                                 .map((word, index) => (
@@ -1094,7 +1094,7 @@ export default function Home() {
                                 ))}
                         </h1>
                         <h1
-                            className="ml-0 lg:ml-2 mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl text-slate-300 text-neutral-400" style={{
+                            className="ml-0 lg:ml-2 mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-5xl lg:text-6xl text-slate-300 text-neutral-400" style={{
                                 color: "#2b5cfc",
                             }}>
                             {`Connectivity,`
@@ -1117,7 +1117,7 @@ export default function Home() {
                     </div>
                     <div className="flex flex-wrap navbar-responsive">
                         <h1
-                            className="mb-2 relative z-10 text-left text-2xl font-bold text-slate-700 md:text-3xl lg:text-7xl text-slate-300 text-neutral-400" style={{
+                            className="mb-2 relative z-10 text-left text-2xl font-bold text-slate-700 md:text-5xl lg:text-6xl text-slate-300 text-neutral-400" style={{
                                 color: "#2b5cfc",
                             }}>
                             {`Powered${" "} `
@@ -1138,7 +1138,7 @@ export default function Home() {
                                 ))}
                         </h1>
                         <h1
-                            className="mb-2 relative z-10 text-left text-2xl font-bold text-slate-700 md:text-3xl lg:text-7xl text-white">
+                            className="mb-2 relative z-10 text-left text-2xl font-bold text-slate-700 md:text-5xl lg:text-6xl text-white">
                             {"by"
                                 .split(" ")
                                 .map((word, index) => (
@@ -1157,7 +1157,7 @@ export default function Home() {
                                 ))}
                         </h1>
                         <h1
-                            className="mb-2 relative z-10 text-left text-2xl font-bold text-slate-700 md:text-3xl lg:text-7xl text-slate-300 text-neutral-400" style={{
+                            className="mb-2 relative z-10 text-left text-2xl font-bold text-slate-700 md:text-5xl lg:text-6xl text-slate-300 text-neutral-400" style={{
                                 color: "#2b5cfc",
                             }}>
                             {` ${" "}Zero ${' '}Trust`
@@ -1189,7 +1189,7 @@ export default function Home() {
                             duration: 0.3,
                             delay: 0.8,
                         }}
-                        className="ml-0 lg:ml-1 w-full lg:w-10/12 relative z-10 py-4 text-left text-xl text-slate-300">
+                        className="ml-0 lg:ml-1 w-full lg:w-10/12 relative z-10 py-4 text-left text-lg text-slate-300">
                         Enable your workforce to connect from anywhere without exposing your infrastructure. Our platform enforces continuous verification, encrypted tunnels, and AI-driven risk assessments — ensuring every login, device, and session is trusted, monitored, and protected.
                     </motion.p>
                 </div>
@@ -1249,7 +1249,7 @@ export default function Home() {
                             </svg>
                         </div>
 
-                        <h1 className="relative z-50 mb-5 text-xl lg:text-3xl font-bold text-white text-neutral-400">
+                        <h1 className="relative z-50 mb-5 text-xl lg:text-2xl font-bold text-white text-neutral-400">
                             <p style={{
                                 color: "#2b5cfc",
                                 display: "inline"
@@ -1263,13 +1263,13 @@ export default function Home() {
                             </p>
                         </h1>
 
-                        <p className="relative z-50 mb-6 font-normal text-slate-500 text-lg lg:text-2xl">
+                        <p className="relative z-50 mb-6 font-normal text-slate-500 text-lg lg:text-xl">
                             Connect with industry experts and access free support tailored to your needs.
                             Gain consulting insights to strengthen your digital systems and strategies.
                             Be part of a trusted network shaping the future of secure technology.
                         </p>
 
-                        <button className="cursor-pointer rounded-lg border border-gray-500 px-4 py-1 text-gray-300 text-xl">
+                        <button className="cursor-pointer rounded-lg border border-gray-500 px-4 py-1 text-gray-300 text-md">
                             Join Now
                         </button>
 
@@ -1281,7 +1281,7 @@ export default function Home() {
                 <div className="mx-auto text-left mb-13">
                     <div className="flex flex-wrap">
                         <h1
-                            className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl text-slate-300 text-neutral-400" style={{
+                            className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-5xl lg:text-6xl text-slate-300 text-neutral-400" style={{
                                 color: "#2b5cfc",
                             }}>
                             {`Frequently${" "} `
@@ -1302,7 +1302,7 @@ export default function Home() {
                                 ))}
                         </h1>
                         <h1
-                            className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl text-slate-300 text-neutral-400 text-white">
+                            className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-5xl lg:text-6xl text-slate-300 text-neutral-400 text-white">
                             {"asked"
                                 .split(" ")
                                 .map((word, index) => (
@@ -1321,7 +1321,7 @@ export default function Home() {
                                 ))}
                         </h1>
                         <h1
-                            className="ml-0 lg:ml-2 mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl text-slate-300 text-neutral-400" style={{
+                            className="ml-0 lg:ml-2 mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-5xl lg:text-6xl text-slate-300 text-neutral-400" style={{
                                 color: "#2b5cfc",
                             }}>
                             {`Questions`
@@ -1353,7 +1353,7 @@ export default function Home() {
                             duration: 0.3,
                             delay: 0.8,
                         }}
-                        className="ml-0 lg:ml-1 w-full lg:w-10/12 relative z-10 py-4 text-left text-xl lg:text-2xl text-neutral-600 text-neutral-400 text-slate-300">
+                        className="ml-0 lg:ml-1 w-full lg:w-10/12 relative z-10 py-4 text-left text-lg lg:text-lg text-neutral-600 text-neutral-400 text-slate-300">
                         Your most important questions, answered. Learn how Yggdrasil empowers businesses with next-generation cybersecurity, AI-driven solutions, and strategic consulting.
                     </motion.p>
                 </div>
@@ -1380,7 +1380,7 @@ export default function Home() {
                             </svg>
                         </div>
 
-                        <h1 className="relative z-50 mb-5 text-xl lg:text-3xl font-bold text-white text-neutral-400">
+                        <h1 className="relative z-50 mb-5 text-xl lg:text-2xl font-bold text-white text-neutral-400">
                             Stay
                             <p style={{
                                 color: "#2b5cfc",
@@ -1396,7 +1396,7 @@ export default function Home() {
                             </p>
                         </h1>
 
-                        <p className="relative z-50 mb-6 font-normal text-slate-500 text-lg     lg:text-2xl">
+                        <p className="relative z-50 mb-6 font-normal text-slate-500 text-lg     lg:text-xl">
                             Subscribe to our newsletter and get the latest app updates,
                             exclusive cybersecurity insights, and industry news delivered directly to your inbox.
                         </p>

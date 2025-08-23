@@ -49,7 +49,7 @@ const items = [
     icon: <IconFileBroken className="h-10 w-10 text-neutral-500" />,
   },
   {
-    title: "Threat Hunting & Vulnerability Management",
+    title: "Threat & Vulnerability Management",
     description: "Proactively uncovers hidden risks, analyzes system logs, and identifies vulnerabilities before attackers can exploit them.",
     header: <Skeleton />,
     icon: <IconSignature className="h-10 w-10 text-neutral-500" />,
