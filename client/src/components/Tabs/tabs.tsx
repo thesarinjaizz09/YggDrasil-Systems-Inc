@@ -68,7 +68,7 @@ export const Tabs = ({
               />
             )}
 
-            <span className="text-left lg:text-center relative block text-black dark:text-white">
+            <span className="text-left lg:text-center relative block text-black text-white">
               {tab.title}
             </span>
           </button>

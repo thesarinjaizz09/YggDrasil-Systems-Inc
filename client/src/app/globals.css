@@ -46,8 +46,15 @@
   }
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  /* predictable sizing */
+}
+
 :root {
-  --background: #ffffff;
+  --background: #130c20;
   --foreground: #171717;
 }
 
@@ -89,6 +96,7 @@ body {
   .navbar-responsive {
     display: none;
   }
+
   .navbar-unresponsive {
     display: flex;
   }
@@ -99,6 +107,7 @@ body {
   .navbar-responsive {
     display: none;
   }
+
   .navbar-unresponsive {
     display: flex;
   }
@@ -109,6 +118,7 @@ body {
   .navbar-responsive {
     display: none;
   }
+
   .navbar-unresponsive {
     display: flex;
   }
@@ -119,6 +129,7 @@ body {
   .navbar-responsive {
     display: flex;
   }
+
   .navbar-unresponsive {
     display: hidden;
   }
@@ -129,6 +140,7 @@ body {
   .navbar-responsive {
     display: flex;
   }
+
   .navbar-unresponsive {
     display: hidden;
   }

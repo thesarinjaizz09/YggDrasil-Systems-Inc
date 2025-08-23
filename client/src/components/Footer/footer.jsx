@@ -3,7 +3,7 @@ import { FaLinkedin, FaTwitter, FaGithub, FaYoutube } from "react-icons/fa";
 
 export default function Footer() {
     return (
-        <footer className="bg-white/80 backdrop-blur-md dark:bg-neutral-950/80 text-neutral-300 border-t border-neutral-800">
+        <footer className="backdrop-blur-md bg-neutral-950/80 text-neutral-300 border-t border-neutral-800">
             <div className=" mx-auto px-6 lg:px-12 py-16 grid grid-cols-1 md:grid-cols-5 gap-12">
 
                 {/* Brand - Left Side */}

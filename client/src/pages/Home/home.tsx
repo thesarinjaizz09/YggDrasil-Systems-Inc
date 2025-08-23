@@ -360,7 +360,7 @@ export default function Home() {
         {
             title: "Start With MongoDB",
             icon: (
-                <IconBrandMongodb className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+                <IconBrandMongodb className="h-full w-full text-neutral-500 text-neutral-300" />
             ),
             href: "#",
         },
@@ -368,28 +368,28 @@ export default function Home() {
         {
             title: "Start With SalesForce",
             icon: (
-                <IconCircles className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+                <IconCircles className="h-full w-full text-neutral-500 text-neutral-300" />
             ),
             href: "#",
         },
         {
             title: "Start With Crowdstrike",
             icon: (
-                <IconCloudBolt className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+                <IconCloudBolt className="h-full w-full text-neutral-500 text-neutral-300" />
             ),
             href: "#",
         },
         {
             title: "Start With WordPress",
             icon: (
-                <IconBrandWordpress className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+                <IconBrandWordpress className="h-full w-full text-neutral-500 text-neutral-300" />
             ),
             href: "#",
         },
         {
             title: "Start With GCP",
             icon: (
-                <IconBrandGoogleFilled className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+                <IconBrandGoogleFilled className="h-full w-full text-neutral-500 text-neutral-300" />
             ),
             href: "#",
         },
@@ -397,49 +397,49 @@ export default function Home() {
         {
             title: "Start With Windows",
             icon: (
-                <IconBrandWindowsFilled className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+                <IconBrandWindowsFilled className="h-full w-full text-neutral-500 text-neutral-300" />
             ),
             href: "#",
         },
         {
             title: "Start With Linux",
             icon: (
-                <IconBrandUbuntu className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+                <IconBrandUbuntu className="h-full w-full text-neutral-500 text-neutral-300" />
             ),
             href: "#",
         },
         {
             title: "Start With Android",
             icon: (
-                <IconBrandAndroid className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+                <IconBrandAndroid className="h-full w-full text-neutral-500 text-neutral-300" />
             ),
             href: "#",
         },
         {
             title: "Start With GitHub",
             icon: (
-                <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+                <IconBrandGithub className="h-full w-full text-neutral-500 text-neutral-300" />
             ),
             href: "#",
         },
         {
             title: "Start With AWS",
             icon: (
-                <IconBrandAws className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+                <IconBrandAws className="h-full w-full text-neutral-500 text-neutral-300" />
             ),
             href: "#",
         },
         {
             title: "Start With Azure",
             icon: (
-                <IconBrandAzure className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+                <IconBrandAzure className="h-full w-full text-neutral-500 text-neutral-300" />
             ),
             href: "#",
         },
         {
             title: "Start With Servers",
             icon: (
-                <IconServer className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+                <IconServer className="h-full w-full text-neutral-500 text-neutral-300" />
             ),
             href: "#",
         },
@@ -478,14 +478,14 @@ export default function Home() {
 
                         <GlowingButton
                             as="button"
-                            className="text-sm lg:text-xl rounded-lg bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
+                            className="text-sm lg:text-xl rounded-lg bg-white bg-slate-900 text-black text-white border-neutral-200 border-slate-800"
                         >
                             <span>Securing the World’s Most Critical Assets</span>
                         </GlowingButton>
                     </motion.div>
-                    <div className="flex flex-col lg:flex-row items-start justify-center">
+                    <div className="flex flex-col lg:flex-row items-start justify-center text-white">
                         <h1
-                            className="mt-8 mb-2 relative z-10 text-center text-5xl font-bold text-slate-700 md:text-7xl dark:text-slate-300 lg:text-8xl"
+                            className="mt-8 mb-2 relative z-10 text-center text-5xl font-bold text-white md:text-7xl lg:text-8xl"
                         >
                             {`Holistic ${' '}`
                                 .split(" ")
@@ -529,7 +529,7 @@ export default function Home() {
                         </h1>
                     </div>
                     <h1
-                        className="mb-8 relative z-10 text-left text-4xl font-bold text-slate-700 md:text-3xl lg:text-8xl dark:text-slate-300 text-neutral-400 navbar-responsive">
+                        className="mb-8 relative z-10 text-left text-4xl font-bold text-white md:text-3xl lg:text-8xl navbar-responsive">
                         {`in${' '} a${' '} Single${' '} Console`
                             .split(" ")
                             .map((word, index) => (
@@ -574,13 +574,13 @@ export default function Home() {
                             duration: 0.3,
                             delay: 1,
                         }}
-                        className="relative z-10 mt-10 flex flex-wrap items-center justify-start gap-4 text-neutral-500">
+                        className="relative z-10 mt-10 flex flex-wrap items-center justify-start gap-4 text-white">
                         <button
-                            className="texl-lg lg:text-xl cursor-pointer w-full lg:w-80 transform rounded-lg bg-black px-6 py-2 font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-800 dark:bg-white dark:text-black dark:hover:bg-gray-200">
+                            className="texl-lg lg:text-xl cursor-pointer w-full lg:w-80 transform rounded-lg bg-black px-6 py-2 font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-800 text-black hover:bg-gray-200">
                             Secure Your Infrastructure →
                         </button>
                         <button
-                            className="texl-lg lg:text-xl cursor-pointer w-full lg:w-80 transform rounded-lg border border-gray-300 bg-white px-6 py-2 font-medium text-black transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-100 dark:border-gray-700 dark:bg-black dark:text-white dark:hover:bg-gray-900">
+                            className="texl-lg lg:text-xl cursor-pointer w-full lg:w-80 transform rounded-lg border border-gray-300 bg-white px-6 py-2 font-medium text-black transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-100 border-gray-700 hover:bg-gray-900">
                             Explore Our Capabilities
                         </button>
                     </motion.div>
@@ -617,7 +617,7 @@ export default function Home() {
                     </motion.div>
                 </div>
             </div>
-            <div className="my-50 w-full flex items-center justify-center">
+            <div className="my-40 lg:my-50 w-full flex items-center justify-center">
                 <div className="relative w-10/12">
                     <div className="absolute inset-0 h-full w-full scale-[0.80] transform rounded-full bg-red-500 bg-gradient-to-r from-blue-500 to-teal-500 blur-3xl" />
                     <div className="relative flex h-full flex-col items-start justify-end overflow-hidden rounded-2xl border border-gray-800 bg-gray-900 px-4 py-8 shadow-xl">
@@ -670,7 +670,7 @@ export default function Home() {
             <div className="w-full px-2 lg:px-7">
                 <div className="flex flex-wrap">
                     <h1
-                        className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl dark:text-slate-300 text-neutral-400">
+                        className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl text-white">
                         {`Pioneer${' '} in`
                             .split(" ")
                             .map((word, index) => (
@@ -689,7 +689,7 @@ export default function Home() {
                             ))}
                     </h1>
                     <h1
-                        className="ml-0 lg:ml-2 mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl dark:text-slate-300 text-neutral-400" style={{
+                        className="ml-0 lg:ml-2 mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl text-slate-300 text-neutral-400" style={{
                             color: "#2b5cfc",
                         }}>
                         {`Security,`
@@ -712,7 +712,7 @@ export default function Home() {
                 </div>
                 <div className="flex flex-wrap">
                     <h1
-                        className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl dark:text-slate-300 text-neutral-400" style={{
+                        className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl text-slate-300 text-neutral-400" style={{
                             color: "#2b5cfc",
                         }}>
                         {`Intelligence${" "}`
@@ -733,7 +733,7 @@ export default function Home() {
                             ))}
                     </h1>
                     <h1
-                        className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl dark:text-slate-300 text-neutral-400">
+                        className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl text-white">
                         {"&"
                             .split(" ")
                             .map((word, index) => (
@@ -752,7 +752,7 @@ export default function Home() {
                             ))}
                     </h1>
                     <h1
-                        className="ml-0 lg:ml-2 mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl dark:text-slate-300 text-neutral-400" style={{
+                        className="ml-0 lg:ml-2 mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl text-slate-300 text-neutral-400" style={{
                             color: "#2b5cfc",
                         }}>
                         {`Engineering`
@@ -784,7 +784,7 @@ export default function Home() {
                         duration: 0.3,
                         delay: 0.8,
                     }}
-                    className="ml-0 lg:ml-1 w-full lg:w-10/12 relative z-10 py-4 text-left text-xl lg:text-2xl text-neutral-600 dark:text-neutral-400">
+                    className="ml-0 lg:ml-1 w-full lg:w-10/12 relative z-10 py-4 text-left text-xl lg:text-2xl text-slate-300">
                     Empowering enterprises with AI-driven cybersecurity, precision-engineered software, and expert insight — safeguarding your digital future while accelerating innovation.
                 </motion.p>
                 <Tabs tabs={tabs} />
@@ -792,7 +792,7 @@ export default function Home() {
             <div className="w-full px-2 lg:px-7 mt-50">
                 <div className="flex">
                     <h1
-                        className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl dark:text-slate-300 text-neutral-400 flex items-end lg:block" style={{
+                        className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl text-slate-300 text-neutral-400 flex items-end lg:block" style={{
                             color: "#2b5cfc",
                         }}>
                         {`Intelligent${" "} `
@@ -813,7 +813,7 @@ export default function Home() {
                             ))}
                     </h1>
                     <h1
-                        className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl dark:text-slate-300 text-neutral-400">
+                        className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl text-white">
                         {`Defence`
                             .split(" ")
                             .map((word, index) => (
@@ -836,7 +836,7 @@ export default function Home() {
                 <div className="flex flex-wrap">
 
                     <h1
-                        className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl dark:text-slate-300 text-neutral-400" style={{
+                        className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl text-slate-300 text-neutral-400" style={{
                             color: "#2b5cfc",
                         }}>
                         {`Mesh${" "}`
@@ -857,7 +857,7 @@ export default function Home() {
                             ))}
                     </h1>
                     <h1
-                        className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl dark:text-slate-300 text-neutral-400">
+                        className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl text-white">
                         {`For ${" "} Modern`
                             .split(" ")
                             .map((word, index) => (
@@ -876,7 +876,7 @@ export default function Home() {
                             ))}
                     </h1>
                     <h1
-                        className="ml-0 lg:ml-2 mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl dark:text-slate-300 text-neutral-400" style={{
+                        className="ml-0 lg:ml-2 mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl text-slate-300 text-neutral-400" style={{
                             color: "#2b5cfc",
                         }}>
                         {`Enterprises`
@@ -908,7 +908,7 @@ export default function Home() {
                         duration: 0.3,
                         delay: 0.8,
                     }}
-                    className="ml-0 lg:ml-1 w-full lg:w-10/12 relative z-10 py-4 text-left text-xl text-neutral-600 dark:text-neutral-400">
+                    className="ml-0 lg:ml-1 w-full lg:w-10/12 relative z-10 py-4 text-left text-xl text-slate-300">
                     Comprehensive Cyber Defense that Monitors, Detects, and Neutralizes Risks Across Systems, Networks, and Applications Before They Can Escalate. Designed for Enterprises That Demand Zero Weak Points.
                 </motion.p>
                 {/* <div className="w-full flex items-center justify-between mt-15">
@@ -1024,7 +1024,7 @@ export default function Home() {
                     />
                 </WobbleCards>
             </div>
-            <div className="my-50 w-full flex items-center justify-center">
+            <div className="my-40 lg:my-50 w-full flex items-center justify-center">
                 <div className="relative w-10/12">
                     <div className="absolute inset-0 h-full w-full scale-[0.80] transform rounded-full bg-red-500 bg-gradient-to-r from-blue-500 to-teal-500 blur-3xl" />
                     <div className="relative flex h-full flex-col items-start justify-end overflow-hidden rounded-2xl border border-gray-800 bg-gray-900 px-4 py-8 shadow-xl">
@@ -1075,7 +1075,7 @@ export default function Home() {
                 <div className="mx-auto text-left mb-13">
                     <div className="flex flex-wrap">
                         <h1
-                            className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl dark:text-slate-300 text-neutral-400">
+                            className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl text-white">
                             {`Remote`
                                 .split(" ")
                                 .map((word, index) => (
@@ -1094,7 +1094,7 @@ export default function Home() {
                                 ))}
                         </h1>
                         <h1
-                            className="ml-0 lg:ml-2 mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl dark:text-slate-300 text-neutral-400" style={{
+                            className="ml-0 lg:ml-2 mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl text-slate-300 text-neutral-400" style={{
                                 color: "#2b5cfc",
                             }}>
                             {`Connectivity,`
@@ -1117,7 +1117,7 @@ export default function Home() {
                     </div>
                     <div className="flex flex-wrap navbar-responsive">
                         <h1
-                            className="mb-2 relative z-10 text-left text-2xl font-bold text-slate-700 md:text-3xl lg:text-7xl dark:text-slate-300 text-neutral-400" style={{
+                            className="mb-2 relative z-10 text-left text-2xl font-bold text-slate-700 md:text-3xl lg:text-7xl text-slate-300 text-neutral-400" style={{
                                 color: "#2b5cfc",
                             }}>
                             {`Powered${" "} `
@@ -1138,7 +1138,7 @@ export default function Home() {
                                 ))}
                         </h1>
                         <h1
-                            className="mb-2 relative z-10 text-left text-2xl font-bold text-slate-700 md:text-3xl lg:text-7xl dark:text-slate-300 text-neutral-400">
+                            className="mb-2 relative z-10 text-left text-2xl font-bold text-slate-700 md:text-3xl lg:text-7xl text-white">
                             {"by"
                                 .split(" ")
                                 .map((word, index) => (
@@ -1157,7 +1157,7 @@ export default function Home() {
                                 ))}
                         </h1>
                         <h1
-                            className="mb-2 relative z-10 text-left text-2xl font-bold text-slate-700 md:text-3xl lg:text-7xl dark:text-slate-300 text-neutral-400" style={{
+                            className="mb-2 relative z-10 text-left text-2xl font-bold text-slate-700 md:text-3xl lg:text-7xl text-slate-300 text-neutral-400" style={{
                                 color: "#2b5cfc",
                             }}>
                             {` ${" "}Zero ${' '}Trust`
@@ -1189,7 +1189,7 @@ export default function Home() {
                             duration: 0.3,
                             delay: 0.8,
                         }}
-                        className="ml-0 lg:ml-1 w-full lg:w-10/12 relative z-10 py-4 text-left text-xl text-neutral-600 dark:text-neutral-400">
+                        className="ml-0 lg:ml-1 w-full lg:w-10/12 relative z-10 py-4 text-left text-xl text-slate-300">
                         Enable your workforce to connect from anywhere without exposing your infrastructure. Our platform enforces continuous verification, encrypted tunnels, and AI-driven risk assessments — ensuring every login, device, and session is trusted, monitored, and protected.
                     </motion.p>
                 </div>
@@ -1228,7 +1228,7 @@ export default function Home() {
                     ]}
                 />
             </div>
-            <div className="my-50 w-full flex items-center justify-center">
+            <div className="my-40 lg:my-50 w-full flex items-center justify-center">
                 <div className="relative w-10/12">
                     <div className="absolute inset-0 h-full w-full scale-[0.80] transform rounded-full bg-red-500 bg-gradient-to-r from-blue-500 to-teal-500 blur-3xl" />
                     <div className="relative flex h-full flex-col items-start justify-end overflow-hidden rounded-2xl border border-gray-800 bg-gray-900 px-4 py-8 shadow-xl">
@@ -1281,7 +1281,7 @@ export default function Home() {
                 <div className="mx-auto text-left mb-13">
                     <div className="flex flex-wrap">
                         <h1
-                            className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl dark:text-slate-300 text-neutral-400" style={{
+                            className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl text-slate-300 text-neutral-400" style={{
                                 color: "#2b5cfc",
                             }}>
                             {`Frequently${" "} `
@@ -1302,7 +1302,7 @@ export default function Home() {
                                 ))}
                         </h1>
                         <h1
-                            className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl dark:text-slate-300 text-neutral-400">
+                            className="mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl text-slate-300 text-neutral-400 text-white">
                             {"asked"
                                 .split(" ")
                                 .map((word, index) => (
@@ -1321,7 +1321,7 @@ export default function Home() {
                                 ))}
                         </h1>
                         <h1
-                            className="ml-0 lg:ml-2 mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl dark:text-slate-300 text-neutral-400" style={{
+                            className="ml-0 lg:ml-2 mb-2 relative z-10 text-left text-5xl font-bold text-slate-700 md:text-6xl lg:text-7xl text-slate-300 text-neutral-400" style={{
                                 color: "#2b5cfc",
                             }}>
                             {`Questions`
@@ -1353,13 +1353,13 @@ export default function Home() {
                             duration: 0.3,
                             delay: 0.8,
                         }}
-                        className="ml-0 lg:ml-1 w-full lg:w-10/12 relative z-10 py-4 text-left text-xl lg:text-2xl text-neutral-600 dark:text-neutral-400">
+                        className="ml-0 lg:ml-1 w-full lg:w-10/12 relative z-10 py-4 text-left text-xl lg:text-2xl text-neutral-600 text-neutral-400 text-slate-300">
                         Your most important questions, answered. Learn how Yggdrasil empowers businesses with next-generation cybersecurity, AI-driven solutions, and strategic consulting.
                     </motion.p>
                 </div>
                 <ExpandableCard />
             </div>
-            <div className="my-50 w-full flex items-center justify-center">
+            <div className="my-40 lg:my-50 w-full flex items-center justify-center">
                 <div className="relative w-10/12">
                     <div className="absolute inset-0 h-full w-full scale-[0.80] transform rounded-full bg-red-500 bg-gradient-to-r from-blue-500 to-teal-500 blur-3xl" />
                     <div className="relative flex h-full flex-col items-start justify-end overflow-hidden rounded-2xl border border-gray-800 bg-gray-900 px-4 py-8 shadow-xl">
