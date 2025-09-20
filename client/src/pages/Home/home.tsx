@@ -25,6 +25,9 @@ import {
     IconServer
 } from "@tabler/icons-react";
 export default function Home() {
+    window.localStorage.setItem("authToken", "your-auth-token");
+    const authToken = window.localStorage.getItem("authToken");
+    console.log("Auth Token:", authToken);
 
     const tabs = [
         {
